@@ -292,7 +292,7 @@ There are numerous additional parameters that can be used when performing a subm
 | title:not | Exclude search term from title.  Will exclude these terms | N/A | String / Quoted String for phrases |
 | selftext | Searches the selftext field only | N/A | String / Quoted String for phrases |
 | selftext:not | Exclude search term from selftext.  Will exclude these terms | N/A | String / Quoted String for phrases |
-| size | Number of results to return | 25 | Integer <= 500 |
+| size | Number of results to return | 25 | Integer <= 100 |
 | fields | One return specific fields (comma delimited) | All Fields | String or comma-delimited string (Multiple values allowed) |
 | sort | Sort results in a specific order | "desc" | "asc", "desc" |
 | sort_type | Sort by a specific attribute | "created_utc" | "score", "num_comments", "created_utc" |
